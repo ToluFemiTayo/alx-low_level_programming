@@ -1,15 +1,15 @@
-#include<stdlib.h>
-#include<stdtime.h>
 #include<stdio.h>
 /**
- * main -
+ * main - main funtion
  *
  * Return: 0 (Success)
  */
 int main(void)
 {
+	char i;
 
-
-	printf("\n");
+	for (i = 'a' ; i <= 'z' ; i++)
+	putchar(i);
+	putchar('\n');
 	return (0);
 }
