@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - code that prints an integer
- *
- * Return: 0
- */
-
 int main(void)
 {
 	int n;
