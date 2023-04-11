@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - progrpm that prints all arguments it receives
+ * main - program that prints all arguments it receives
  * @argc: number of arguments
  * @argv: array of arguments
  *
