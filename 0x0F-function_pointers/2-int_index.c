@@ -1,7 +1,7 @@
 #include "function_poiinters.h"
 
 /**
- * int_index - return index plce if comparison is true, else -1
+ * int_index - return index place if comparison is true, else -1
  * @array: array
  * @size: size of element in array
  * @cmp: pointer to the func to be used to compare values
