@@ -6,7 +6,7 @@
  * @size: size of element in array
  * @cmp: pointer to the func to be used to compare values
  *
- * Return: 0
+ * Return: index, else -1
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
