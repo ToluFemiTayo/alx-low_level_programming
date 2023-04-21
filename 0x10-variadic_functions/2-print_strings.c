@@ -1,4 +1,4 @@
-#include "variadic_functios.h"
+#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
 
@@ -21,7 +21,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	for (index = 0; index < n; index++)
 	{
-		str = val_arg(strings, char *);
+		str = va_arg(strings, char *);
 
 		if (str == NULL)
 			printf("(nil)");
